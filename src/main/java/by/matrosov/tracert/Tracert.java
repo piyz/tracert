@@ -7,7 +7,7 @@ import java.util.concurrent.Executors;
 
 public class Tracert {
 
-    private static final int MAX_THREADS = 4;
+    private static final int MAX_THREADS = 5;
 
     public static void main(String[] args) {
         Set<String> ipSet = new HashSet<>();
